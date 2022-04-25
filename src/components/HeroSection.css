@@ -1,0 +1,30 @@
+.hero-container {
+    min-height: 100vh;
+    min-width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    object-fit: contain;
+}
+
+.center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 11rem;
+    color: white;
+}
+
+h1 {
+    font-family: ARDESTINE;
+    font-size: 5rem;
+    margin-top: -1rem;
+}
+
+.change {
+    font-size: 13px;
+    letter-spacing: 1px;
+}
+
+
