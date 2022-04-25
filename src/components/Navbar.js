@@ -33,17 +33,17 @@ function Navbar() {
           <ul className={click ? "nav-menu active" : "nav-menu"}>
             <li className="nav-item">
               <Link to="/" className="nav-links" onClick={closeMobileMenu}>
-                Home
+                HOME
               </Link>
             </li>
             <li className="nav-item">
               <Link to="/" className="nav-links" onClick={closeMobileMenu}>
-                Goals
+                GOALS
               </Link>
             </li>
             <li className="nav-item">
               <Link to="/" className="nav-links" onClick={closeMobileMenu}>
-                About
+                ABOUT
               </Link>
             </li>
             <li className="nav-item">
@@ -52,12 +52,12 @@ function Navbar() {
                 className="nav-links"
                 onClick={closeMobileMenu}
               >
-                Staking
+                STAKING
               </Link>
             </li>
             <li className="nav-item">
               <Link to="/" className="nav-links" onClick={closeMobileMenu}>
-                Join
+                JOIN
               </Link>
             </li>
           </ul>
